@@ -600,14 +600,232 @@
 #     s1 = student()
 #     print(s1.name)
 
-class Car:
+# class Student:
+#     name = "kiran"
+#     def __init__(self,fullname):
+#        self.name = fullname
+#              print("Adding new student in database..")
+#     s1 = Student()
+   
+#$$$$$$$$$$$$$$$$$$$$$$$ 27/12/2025 $$$$$$$$$$$$$$$$$$$$#
 
-    def __init__(self):
-        print("Adding new student in database..")
-    s1 = Student()
-    color = "blue"
-    brand = "mercedes"
+# class Student:
+#     name = "Kiran"
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+#         print("craeting new student in database..")
 
-car1 = Car()
-print(car1.color)
-print(car1.brand)
+# s1 = Student("kiran",97)
+# print(s1.name, s1.marks)
+
+# s2 = Student("arjun",88)
+# print(s2.name,s2.marks)
+# s2 = Student()
+# print(s2.name)
+
+# class Car:
+#     color="blue"
+#     brand= "mercedes"
+
+# car1 = Car()
+# print(car1.color)
+# print(car1.brand)
+
+# n = int(input("Enter the value: "))
+# total = 0
+
+# for i in range(n):
+#     num =int(input("Enter number: "))
+#     total += num
+
+# print("sum of all numbers: ",total)
+
+# for i in range(1,100):
+#     print(i)
+
+# num = int(input("enter the num: "))
+
+# count = 1
+
+# while(count < 11):
+#     ans = num*count
+#     print(ans)
+#     count +=1
+
+# num = 5
+# sum =0
+
+# for i in range(1, num):
+#     sum += i
+# print(sum)
+
+
+# num =5
+# fact = 1
+# i =1
+
+# while(i<=num):
+#     fact *= i
+#     i +=1
+# print(fact)
+
+# num = 5
+# fact = 1
+# i = 1
+
+# while(i<=num):
+#     fact *= i
+#     i += 1
+# print(fact)
+# class Student:
+#     college_name = "ABC College"
+#     name = "anonymous"
+
+#     def __init__ (self, name, marks):
+#         self.name = name
+#         self.marks = marks
+#         print("Adding new student in Database..")
+
+# S1 = Student("karan", 90)
+# print(S1.name)
+
+# class Student:
+#     college_name = "Matoshri college"
+#     name = "Rushikesh"
+
+#     def __init__(self,name,marks):
+#         self.name = name
+#         self.marks = marks
+#         print("addinf new line in our database..")
+
+# s1 = Student("kiran",90)
+# print(s1.name)
+# print(s1.marks)
+
+# class Student:
+#     college_name = "Matoshri College"
+
+#     def __init__(self,name,marks):
+#         self.name = name
+#         self.marks = marks
+
+#     def welcome(self):
+#         print("Welcome student")
+    
+#     def get_marks(self):
+#         return self.marks
+
+# s1 = Student("karan",98)
+# s1.welcome()
+# print(s1.name,s1.marks)
+# print(s1.get_marks())
+
+# class Student
+
+# name = input("Enter your name bro: ")
+# str = "Hello <<UserName>>,How are you?"
+
+# if(len(name) <= 3):
+#     print("please ad some more words of line")
+# else:
+#     ans = str.replace("<<UsernName>>",name)
+# print(ans)
+
+# name = input("Enter your name bro: ")
+
+# if(len(name) < 3):
+#     print("in name char should be more than 3..")
+# else:
+#     temp = "Hello <<Username>>,How are you?"
+
+#     output = temp.replace("<<Username>>",name)
+# print(output)
+# import random
+# n = int(input("Enter the number of coin you want to  flip: "))
+
+# if(n < 0):
+#     print("Invalid bro..")
+# else:
+#     head = 0
+#     tail = 0
+
+#     for _ in range(n):
+#         if(random.random() < 0.5):
+#             tail += 1
+#         else:
+#             head +=1
+    
+#     head_per = (head/n)*100
+#     tail_per = (tail/n)*100
+
+#     print(f"tail: {head_per:.4f}%")
+#     print(f"head: {tail_per:.4f}%")
+
+
+# import random
+# num = int(input("Enter the value: "))
+
+# if(num < 0):
+#     print("Invalid number please give me more than 0")
+
+# else:
+#     head = 0
+#     tail = 0
+
+#     if(random.random() < 0.5):
+#         tail += 1
+#     else:
+#         head += 1
+
+# head_percentage = (tail/num)*100
+# tail_percentage = (head/num)*100
+
+# print(f"Head: {head_percentage:.5f}%")
+# print(f"Tail: {tail_percentage:.5f}%")
+
+# year = int(input("enter the year: "))
+
+# if(year < 1000):
+#     print("year should not 3 digit.")
+# elif(year%400 == 0 or (year%4 == 0 and year%100 !=0)):
+#     print("leap year")
+# else:
+#     print("Not")
+# p = int(input("enter the number: "))
+# n = int(input("Enter the power: "))
+
+# if(0 <= n and n >31):
+#    print("Invalid value should  be inside 0 to 30 only")
+
+# else:
+#    pow = 1
+#    for i in range(n+1):
+#       print(f"{p}^{i} = {pow}")
+#       pow *= p
+# num = int(input("nter the num: "))
+# pow = int(input("Enter the power: "))
+
+# if(pow <= 0 and pow >31):
+#     print("invalid power should be inside 1-30")
+
+# else:
+#     power = 1 
+#     for i in range(num+1):
+#         print(f"{num}^{i} = {power}")
+#         power *= num
+
+
+
+#harmonic
+
+num = int(input("neter the number: "))
+
+if(num <= 0):
+    print("Invalid number, number sholud be more than 1")
+
+else:
+    harmonic = 0.0
+    for i in range(1,num+1):
+          harmonic += 1/i
+    print(f"{num}th  harmonic number = {harmonic:.3f}")
