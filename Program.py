@@ -819,13 +819,14 @@
 
 #harmonic
 
-num = int(input("neter the number: "))
+# num = int(input("neter the number: "))
 
-if(num <= 0):
-    print("Invalid number, number sholud be more than 1")
+# if(num <= 0):
+#     print("Invalid number, number sholud be more than 1")
 
-else:
-    harmonic = 0.0
-    for i in range(1,num+1):
-          harmonic += 1/i
-    print(f"{num}th  harmonic number = {harmonic:.3f}")
+# else:
+#     harmonic = 0.0
+#     for i in range(1,num+1):
+#           harmonic += 1/i
+#     print(f"{num}th  harmonic number = {harmonic:.3f}")
+

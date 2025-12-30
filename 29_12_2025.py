@@ -221,11 +221,11 @@
 #     print("cannot divide by zero")
 # except ValueError:
 #     print("Invalid input")
-try:
-    x = 10
-    y = 2
-    print(x / y)
-except ZeroDivisionError:
-    print("Error")
-else:
-    print("Execution successful")
+# try:
+#     x = 10
+#     y = 2
+#     print(x / y)
+# except ZeroDivisionError:
+#     print("Error")
+# else:
+#     print("Execution successful")
