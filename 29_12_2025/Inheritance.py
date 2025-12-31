@@ -23,12 +23,26 @@
 
 # ex2 ->
 
-# class A:
-#     varA = "welcome to class A"
-# class B:
-#     varB = "welcome to class B"
-# class C(A,B):
-#     varC = "welcome to class C"
+class A:
+    varA = "welcome to class A"
+    def show(self):
+        print("Show of A")
+
+class B:
+    varB = "welcome to class B"
+    def show(self):
+        print("Show of B")
+
+class C(B,A):
+    varC = "welcome to class C"
+    # def show(self):
+    #     print("inside C")
+
+
+c1 = C()
+c1.show()
+
+print(C.mro())
 
 # c1 = C()
 # print(c1.varC)

@@ -13,8 +13,10 @@ dict = {
     "roll_no1":"31",
 }
 
-for i in dict:
-    print(i)
+print(dict)
+# for i in dict:
+#     print(i)
 
-for val in dict.values():
-    print(val)
+# for val in dict.values():
+#     print(val)
+
