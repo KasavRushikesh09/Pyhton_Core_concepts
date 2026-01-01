@@ -99,7 +99,7 @@ print(sq_lst)'''
 # def table(n):
 #     return lambda x : x*n
 # math_fun = table(n)
-#
+
 # for i in range(1,11):
 #     print(n,"X",i,"=",math_fun(i))
 
